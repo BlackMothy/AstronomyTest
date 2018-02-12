@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Astronomy Test</string>
+
+    <!--Welcome message-->
+    <string name="hello">Take a look at the constellations below and guess what they are.</string>
+
+    <!--Constellations-->
+    <string name="cancer">Cancer</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="boat">Boat</string>
+    <string name="chameleon">Chameleon</string>
+    <string name="lira">Lira</string>
+    <string name="fish">Fish</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="unicorn">Unicorn</string>
+    <string name="ursa_major">Ursa Major</string>
+    <string name="ursa_minor">Ursa Minor</string>
+
+    <!--Buttons-->
+    <string name="check">Check</string>
+    <string name="reset">Try again</string>
+    <string name="answers">See right answers</string>
+    <string name="message">Number of right answers is</string>
+    <string name="of">of</string>
+
+</resources>

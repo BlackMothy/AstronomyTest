@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тест по астрономии</string>
+
+    <!--Задание-->
+    <string name="hello">Посмотрите на созвездие и отметьте, как оно называется.</string>
+
+    <!--Созвездия-->
+    <string name="cancer">Рак</string>
+    <string name="scorpio">Скорпион</string>
+    <string name="boat">Лодка</string>
+    <string name="chameleon">Хамелеон</string>
+    <string name="lira">Лира</string>
+    <string name="fish">Рыба</string>
+    <string name="capricorn">Козерог</string>
+    <string name="unicorn">Единорог</string>
+    <string name="ursa_major">Большая Медведица</string>
+    <string name="ursa_minor">Малая медведица</string>
+
+    <!--Кнопки-->
+    <string name="check">Узнать результат</string>
+    <string name="reset">Попробовать ещё раз</string>
+    <string name="answers">Узнать правильные ответы</string>
+    <string name="message">Количество правильных ответов = </string>
+    <string name="of">из</string>
+
+</resources>
