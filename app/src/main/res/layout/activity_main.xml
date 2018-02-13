@@ -19,11 +19,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/hello"
-            android:textAlignment="center"
+            android:background="#99FFFFFF"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:background="#99FFFFFF"
+            android:text="@string/hello"
+            android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="20sp" />
 
@@ -32,7 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#99FFFFFF"
             android:orientation="vertical">
 
             <!--Question 1 pic-->
@@ -48,6 +47,7 @@
                 android:id="@+id/radioGroup1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
                 android:orientation="horizontal"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp">
@@ -82,7 +82,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#99FFFFFF"
             android:orientation="vertical">
 
             <!--Question 2 pic-->
@@ -98,6 +97,7 @@
                 android:id="@+id/radioGroup2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
                 android:orientation="horizontal"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp">
@@ -132,7 +132,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#99FFFFFF"
             android:orientation="vertical">
 
             <!--Question 3 pic-->
@@ -148,6 +147,7 @@
                 android:id="@+id/radioGroup3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
                 android:orientation="horizontal"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp">
@@ -182,7 +182,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#99FFFFFF"
             android:orientation="vertical">
 
             <!--Question 4 pic-->
@@ -198,6 +197,7 @@
                 android:id="@+id/radioGroup4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
                 android:orientation="horizontal"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp">
@@ -232,7 +232,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#99FFFFFF"
             android:orientation="vertical">
 
             <!--Question 5 pic-->
@@ -248,6 +247,7 @@
                 android:id="@+id/radioGroup5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
                 android:orientation="horizontal"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp">
@@ -278,29 +278,29 @@
         </LinearLayout>
 
         <Button
-            android:onClick="checkAnswers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/check"
             android:layout_marginTop="25dp"
-            android:background="#99FFFFFF" />
+            android:background="#99FFFFFF"
+            android:onClick="checkAnswers"
+            android:text="@string/check" />
 
         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#99FFFFFF"
             android:onClick="tryAgain"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/reset"
-            android:layout_marginTop="16dp"
-            android:background="#99FFFFFF" />
+            android:text="@string/reset" />
 
         <Button
-            android:onClick="getRightAnswers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answers"
-            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:background="#99FFFFFF" />
+            android:layout_marginTop="16dp"
+            android:background="#99FFFFFF"
+            android:onClick="getRightAnswers"
+            android:text="@string/answers" />
 
     </LinearLayout>
 </ScrollView>
